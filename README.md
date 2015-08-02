@@ -7,7 +7,9 @@ a simple python tool that helps generate csv files from a json file
 3. edit the `example.json` to meet your requirements.
 4. open cmd in this directory, and run:  
       <code>python csv_generator.py example.json</code>
-      
+
+#environments required
+Python version: [v 3.4.3](https://www.python.org/downloads/)
 
 #what's in `example.json`
 In fact, `example.json` is a list of json objects. Each json object represents a csv file you want generate.
