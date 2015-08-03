@@ -30,7 +30,7 @@ def make_lines(length, rows):
 
 
 def convert_to_csv(jsonfile):
-    with open(jsonfile,"r") as jsf:
+    with open(jsonfile,"r",encoding="utf-8") as jsf:
         data_set = json.load(jsf)
     for data in data_set:
         filepath = data["title"]+".csv"
