@@ -16,7 +16,7 @@ In fact, `example.json` is a list of json objects. Each json object represents a
 
 The object must contain following attributes:
 - `title`: the title of the csv file, this should be a string. Remeber not to add `'.csv'` to the end.
-- `lenght`: the lenght of each line.
+- `length`: the lenght of each line.
 - `lines`: a list of objects each represents the content of a line.
 
 #example
